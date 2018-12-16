@@ -1,13 +1,14 @@
 {
   "name": "storybook-styleguide",
   "scripts": {
-    "start": "webpack-dev-server --mode development"
+    "start": "webpack-dev-server --mode development",
+    "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "version": "1.0.0",
   "main": "index.js",
   "author": "Alice Kallaugher",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@babel/cli": "7.2.0",
     "@babel/core": "7.2.2",
@@ -18,6 +19,7 @@
     "react-hot-loader": "4.6.0"
   },
   "devDependencies": {
+    "@storybook/react": "4.1.2",
     "babel-loader": "8.0.4",
     "css-loader": "2.0.1",
     "style-loader": "0.23.1",

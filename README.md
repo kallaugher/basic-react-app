@@ -1,6 +1,6 @@
 ### To do:
 
 - [ ] add sass
-- [ ] add storybook
+- [x] add storybook
 - [ ] add linting
 - [ ] add typescript
